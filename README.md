@@ -1,3 +1,4 @@
+```markdown
 # Token Price Fetcher
 
 This project fetches the price of a token pair using the Uniswap V2 router contract on the Ethereum mainnet. It uses `ethers.js` for interacting with the Ethereum blockchain.
@@ -12,8 +13,7 @@ This project fetches the price of a token pair using the Uniswap V2 router contr
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-repo/PriceFetchUniswapV2.git
-    cd token-price-fetcher
+    git clone https://github.com/your-repo/token-price-fetcher.git
     ```
 
 2. Install the dependencies:
@@ -95,15 +95,21 @@ node index.js
 The code includes error handling to catch and log any issues that arise during execution.
 
 ## Useful Links
-UniswapV2 Factory Contract
-UniswapV2 Router 2
-WETH
-Dai Stablecoin
+
+- [UniswapV2 Factory Contract](https://etherscan.io/address/0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f)
+- [UniswapV2 Router 2](https://etherscan.io/address/0x7a250d5630b4cf539739df2c5dacb4c659f2488d)
+- [WETH](https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2)
+- [Dai Stablecoin](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f)
 
 ## Contributions
 
 Contributions are welcome! Feel free to submit a pull request or open an issue if you find a bug or have a feature request.
 
+## License
+
+This project is licensed under the MIT License.
+
 ## Contact
 
 For any questions or suggestions, please contact [(https://www.instagram.com/codeeater21/)].
+```
