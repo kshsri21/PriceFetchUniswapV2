@@ -30,7 +30,7 @@ This project fetches the price of a token pair using the Uniswap V2 router contr
 
 ## Project Structure
 
-- `index.js`: Main file containing the code to fetch token prices.
+- `PriceFetch.js`: Main file containing the code to fetch token prices.
 - `AbiInfo.js`: Contains the ABI information for the ERC20 tokens and the Uniswap router.
 - `AddressList.js`: Contains the addresses of the tokens and the Uniswap router.
 
@@ -46,7 +46,7 @@ The code will fetch the price of the token pair specified in the `AddressList.js
 
 ## Code Explanation
 
-The main logic is in `index.js`:
+The main logic is in `PriceFetch.js`:
 
 - Load environment variables from a `.env` file.
 - Import required modules and ABI/address information.
@@ -87,7 +87,7 @@ module.exports = {
 To fetch the price of 1 unit of the `fromAddress` token in terms of the `toAddress` token, run:
 
 ```bash
-node index.js
+node PriceFetch.js
 ```
 
 ## Error Handling
