@@ -39,7 +39,7 @@ This project fetches the price of a token pair using the Uniswap V2 router contr
 To fetch the price of a token pair, run:
 
 ```bash
-node index.js
+node PriceFetch.js
 ```
 
 The code will fetch the price of the token pair specified in the `AddressList.js` file and log the output to the console.
