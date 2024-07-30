@@ -10,4 +10,8 @@ const routerABI=[
     "function getAmountsOut(uint amountIn, address[] memory path) public view returns (uint[] memory amounts)"
 ]
 
-module.exports = { erc20ABI,pairABI,routerABI };
+const factoryABI=[
+    "function getPair(address tokenA, address tokenB) external view returns (address pair)"
+]
+
+module.exports = { erc20ABI,pairABI,routerABI,factoryABI };
